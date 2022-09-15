@@ -28,7 +28,7 @@ jobs:
         uses: actions/setup-java@v3.5.0
         with:
           java-version: 11
-          distribution: jdk
+          distribution: temurin
 
       # Runs gradle command publish cn docs
       - name: Publish cn docs
