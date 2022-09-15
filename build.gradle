@@ -334,7 +334,7 @@ task tagRelease(type: Exec) {
   git config user.name "Spock Framework Robot"
   git checkout master
   git tag -f spock-$variantLessVersion
-  git push "https://\$GITHUB_TOKEN@github.com/spockframework/spock.git" spock-$variantLessVersion 2>&1 | sed "s/\$GITHUB_TOKEN/xxx/g"
+  git push "https://\$GITHUB_TOKEN@github.com/spockframework/spock.git" spock-$variantLessVersion 2>&1"
 """
 }
 
