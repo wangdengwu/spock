@@ -1,0 +1,8 @@
+= 介绍
+include::include.adoc[]
+
+image::images/spock-main-logo.png[Spock Logo, align=center, width=20%]
+
+Spock是用于Java和Groovy程序的测试框架，使其脱颖而出的原因在于其优美且极具表现力的规范语言。感谢它的JUnit runner，Spock与大多数IDE、构建工具和持续集成服务器兼容。Spock的灵感来自 https://junit.org/[JUnit],
+https://www.jmock.org/[jMock], https://rspec.info/[RSpec], https://groovy-lang.org/[Groovy], https://scala-lang.org/[Scala],
+https://en.wikipedia.org/wiki/Vulcan_(Star_Trek)[Vulcans]，以及其他迷人的生命形式

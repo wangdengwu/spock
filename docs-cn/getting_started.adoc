@@ -1,0 +1,14 @@
+= 快速开始
+include::include.adoc[]
+
+本节向您展示如何快速开始使用Spock
+
+== Spock网页终端
+
+https://meetspock.appspot.com/[Spock网页终端] 是一个允许您即时查看、编辑、运行甚至发布Spock规范的网站，这是随意使用Spock而不需要有任何负担的理想场所。
+所以为什么不现在就开始跑一下 https://meetspock.appspot.com/edit/9001[Hello, Spock!] ?
+
+== Spock示例项目
+
+在本地环境中尝试Spock，克隆或下载/解压缩
+https://github.com/spockframework/spock-example[Spock示例项目]。它配备了功能齐全的Ant、Gradle和无需进一步设置的Maven构建。Gradle构建甚至可以引导Gradle本身来让您能运行起来，然后您只需要一条命令就可以在Eclipse或IDEA中打开。有关详细说明，请参阅README。

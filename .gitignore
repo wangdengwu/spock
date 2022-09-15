@@ -29,7 +29,7 @@ stacktrace.log
 
 # Mac
 .DS_Store
-
+.java-version
 # Shippable CI
 /shippable/
 
