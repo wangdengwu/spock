@@ -323,7 +323,7 @@ task publishDocs(type: Exec) {
   cp -r build/docs/asciidoc/* docs/
   git add docs
   git commit -qm "Publish docs"
-  git push "https://\$GITHUB_TOKEN@github.com/spockframework/spock.git" gh-pages 2>&1"
+  git push "https://\$GITHUB_TOKEN@github.com/spockframework/spock.git" gh-pages 2>&1
   git switch -
 """
 }
