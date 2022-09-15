@@ -321,6 +321,7 @@ task publishDocs(type: Exec) {
   git switch gh-pages
   rm -rf docs/*
   cp -r build/docs/asciidoc/* docs/
+  cp CNAME docs/
   git add docs
   git commit -qm "Publish docs"
   git push origin gh-pages 2>&1
