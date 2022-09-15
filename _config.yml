@@ -1,2 +1,0 @@
-include: ["javadoc/", "groovydoc/"]
-exclude: [".gitignore", "gradle/", "build.gradle", "gradlew", "gradlew.bat"]
