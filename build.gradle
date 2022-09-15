@@ -315,15 +315,14 @@ task publishDocs(type: Exec) {
   dependsOn "asciidoctor"
   commandLine "sh", "-c",
 """
-  git config user.email "dev@forum.spockframework.org"
+  git config user.email "dev@forum.spockframework.cn"
   git config user.name "Spock Framework Robot"
   git fetch origin +gh-pages:gh-pages
   git switch gh-pages
-  rm -rf docs/$variantLessVersion
-  mkdir -p docs/$variantLessVersion
-  cp -r build/docs/asciidoc/* docs/$variantLessVersion
+  rm -rf docs/*
+  cp -r build/docs/asciidoc/* docs/
   git add docs
-  git commit -qm "Publish docs/$variantLessVersion"
+  git commit -qm "Publish docs"
   git push "https://\$GITHUB_TOKEN@github.com/spockframework/spock.git" gh-pages 2>&1 | sed "s/\$GITHUB_TOKEN/xxx/g"
   git switch -
 """

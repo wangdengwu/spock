@@ -32,4 +32,4 @@ jobs:
 
       # Runs gradle command publish cn docs
       - name: Publish cn docs
-        run: ./gradlew asciidoctor -P lang=cn
+        run: ./gradlew publishDocs -P lang=cn
